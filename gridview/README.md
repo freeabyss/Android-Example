@@ -16,5 +16,5 @@
 > * android:horizontalSpacing= "10dp"   水平边距
 
 ## 更新说明
-> 1. [添加GridView控件简单的使用](/gridview/)  ——2015-12-25 添加
+> 1. 添加GridView控件简单的使用  ——2015-12-25 添加
  
