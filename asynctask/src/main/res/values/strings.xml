@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">asynctask</string>
+    <string name="async_text_button">开始</string>
+</resources>
