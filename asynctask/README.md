@@ -29,13 +29,5 @@
 > * 一个实例仅能被调用一次，第二次调用会抛出异常
 
 
-
-
-
-
- 
-
-
-国内网址 
 [AsyncTask API参考](http://www.android-doc.com/reference/android/os/AsyncTask.html)
 
