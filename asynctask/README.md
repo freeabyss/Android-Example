@@ -10,15 +10,16 @@
 ### 常用函数说明
 > * execute(Params...) : 执行任务，该方法中的参数，会传递给doInBackground(Params...)方法
 > * onPreExecute:在doInBackground(Params...)函数之前调用,运行在UI线程中，例如可以在该函数中初始化进度条
-> * doInBackground(Params...) : 后台计算，用来运行耗时的任务，该方法的参数来自execute(Params...)函数中的参数
+> * doInBackground(Params...) : 异步执行后台线程将要完成的任务，该方法的参数来自execute(Params...)函数中的参数
 > * publishProgress(Progress...) : 一般在doInBackground(Params..)函数中调用，该函数会调用publishProgress(Progress...)函数
 > * onProgressUpdate(Progress...) : 一般用来更新一个或多个进度条，该函数的参数来自publishProgress(Progress...)函数
 > * onPostExecute(Result result) : 在后台计算完成后被调用。参数来自于doInBackground(Params...)函数的返回值. <br>
 如果cancel(boolean)方法被调用，该方法将不会被调用。
 > * cancel(boolean) : 该函数可以在任意时刻被调用，调用后isCancelled()返回true。因此如若需要取消，<br>
-需在doInBackground(Params...)函数中定期检测isCancelled()函数的返回值。
+需在doInBackground(Params...)函数中定期检测isCancelled()函数的返回值。  
+>   如果调用cancel(false):AsyncTask会在doInBackground函数中检查isCancelled()的状态并选择提前退出
+    如果调用cancel(true):AsyncTask会强制退出，不建议使用这种方式   
 > * onCancelled(Result) : cancel(boolean)函数被调用后，该函数会被调用。如果不重载该方法的话，也可以重载onCancelled()
-
 
 
 ## 注意事项

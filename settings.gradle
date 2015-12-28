@@ -1,1 +1,1 @@
-include ':gridview', ':asynctask'
+include ':gridview', ':asynctask', ':handlerthread'
