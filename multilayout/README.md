@@ -38,5 +38,24 @@
 ## FrameLayout
 ### 功能
 > 帧布局，该布局所有的子元素都放置在左上角，后面的元素会覆盖前面的元素。
+### 属性
+> `andorid:gravity`：使控件居中显示
 
+## TableLayout
+### 功能
+> 表格布局，以行列的形式管理子控件，每一行为一个`TableRow`或者一个`View`对象。
+表格布局将占满父容器本身。
+### 属性
+#### 全局属性，即TableLayout所用的属性
+>`android:collapseColumns`：隐藏列，序号从0开始，可以用逗号隔开
+>`android:shrinkColumns`：允许收缩列，序号从0开始，可以用逗号隔开，可以用*匹配所有列
+>`android:stretchColumns`：允许拉伸列，序号从0开始，可以用逗号隔开，可以用*匹配所有列
+> *同一列允许同时拉伸和收缩*
+#### 内部属性，即子控件所用的属性
+>`android:layout_column`：设置控件在第几行显示,从0开始
+>`android:layout_span`：控件占据的列宽
 
+## AutoLayout
+### 功能
+> 可以使不同的布局文件匹配不同的分辨率。该库的详细介绍参见[AutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)
+### 

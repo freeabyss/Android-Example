@@ -18,4 +18,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/togglebutton_title"/>
+
+    <Button
+        android:id="@+id/showCheckBoxButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkedbox_title"/>
+
+
+    <Button
+        android:id="@+id/showRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_title"/>
 </LinearLayout>

@@ -1,10 +1,17 @@
 <resources>
-    <string name="app_name">Component</string>
+    <string name="app_name">Component示例</string>
     <string name="actv_title">AutoCompleteTextView示例</string>
-    <string name="actv_hint">关键字</string>
     <string name="mactv_title">MultiAutoCompleteTextView示例</string>
-    <string name="returnbutton_text">返回</string>
     <string name="togglebutton_title">ToggleButton示例</string>
+    <string name="checkedbox_title">CheckedBox示例</string>
+
+    <string name="actv_hint">关键字</string>
+    <string name="returnbutton_text">返回</string>
     <string name="toggle_off_text">关</string>
     <string name="toggle_on_text">开</string>
+    <string name="checkedbox_item_basketball">篮球</string>
+    <string name="radio_item_man">男</string>
+    <string name="radio_item_woman">女</string>
+    <string name="radio_title">RadioGroup和RadioButton示例</string>
+
 </resources>

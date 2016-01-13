@@ -31,5 +31,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        // CheckBox 示例界面
+        Button checkBoxButton = (Button) findViewById(R.id.showCheckBoxButton);
+        checkBoxButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, CheckBoxActivity.class);
+                startActivity(i);
+            }
+        });
+        //RadioGroup和RadioButton示例
+        Button radioGroupButton = (Button) findViewById(R.id.showRadioButton);
+        radioGroupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, RadioButtonActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

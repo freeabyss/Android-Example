@@ -11,15 +11,22 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LinearLayourActivity">
+        <activity
+            android:name=".LinearLayourActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".RelativeLayoutActivity">
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".FrameLayoutActivity">
+        <activity
+            android:name=".FrameLayoutActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".TableLayoutAvtivity">
         </activity>
     </application>
 

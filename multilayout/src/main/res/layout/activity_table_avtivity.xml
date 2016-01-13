@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".TableLayoutAvtivity">
+
+    <TableRow>
+
+        <EditText android:layout_span="4"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="%"/>
+
+        <Button android:text="根号"/>
+
+        <Button android:text="平方"/>
+
+        <Button android:text="1/x"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="CE"/>
+
+        <Button android:text="C"/>
+
+        <Button android:text="-"/>
+
+        <Button android:text="/"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button android:text="7"/>
+
+        <Button android:text="8"/>
+
+        <Button android:text="9"/>
+
+        <Button android:text="X"/>
+
+    </TableRow>
+</TableLayout>

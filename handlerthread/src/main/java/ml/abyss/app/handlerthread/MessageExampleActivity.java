@@ -3,6 +3,7 @@ package ml.abyss.app.handlerthread;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 import android.widget.Toast;
@@ -17,8 +18,6 @@ public class MessageExampleActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message_example);
-        Looper.prepare();
-        Looper.myLooper();
         new Thread(new Runnable() {
             @Override
             public void run() {

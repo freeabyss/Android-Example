@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="checked_title">CheckedBox示例</string>
+    <string name="checkedbox_title">CheckedBox示例</string>
+    <string name="checkedbox_item_basketball">篮球</string>
+    <string name="radio_title">RadioGroup和RadioButton示例</string>
 </resources>

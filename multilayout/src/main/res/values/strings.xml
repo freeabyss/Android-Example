@@ -3,4 +3,7 @@
     <string name="linear_title">LinearLayout示例</string>
     <string name="relative_image_title">title</string>
     <string name="relative_image_content">content</string>
+    <string name="relative_title">RelativeLayout示例</string>
+    <string name="frame_title">FrameLayout示例</string>
+    <string name="table_title">TableLayout示例</string>
 </resources>

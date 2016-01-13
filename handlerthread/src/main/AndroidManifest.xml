@@ -9,18 +9,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!-- 主Activity -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!-- 子Activity -->
         <activity
             android:name=".PostExampleActivity"
-            android:label="@string/title_activity_simple_example"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".MainActivity">
         </activity>
-        <activity android:name=".MessageExampleActivity">
+        <activity
+            android:name=".MessageExampleActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 

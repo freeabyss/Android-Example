@@ -17,11 +17,17 @@
         android:id="@+id/showRelativeLayoutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RelativeLayout示例"/>
+        android:text="@string/relative_title"/>
 
     <Button
         android:id="@+id/showFrameLayoutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="FrameLayout示例"/>
+        android:text="@string/frame_title"/>
+
+    <Button
+        android:id="@+id/showTableLayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/table_title"/>
 </LinearLayout>

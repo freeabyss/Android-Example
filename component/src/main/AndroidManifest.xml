@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="ml.abyss.app.component"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest
+    package="ml.abyss.app.component"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -15,8 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AutoCompleteTextViewActivity"/>
-        <activity android:name=".ToggleButtonActivity">
+        <!-- 子Activity -->
+        <activity
+            android:name=".AutoCompleteTextViewActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".ToggleButtonActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".CheckBoxActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".RadioButtonActivity"
+            android:parentActivityName=".MainActivity">
         </activity>
     </application>
 
