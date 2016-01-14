@@ -1,8 +1,10 @@
 #MultiLayout 模块
 > 本模块介绍了各种布局的使用
-## 模块构成
-> LinearLayout
-> RelativeLayout
+## 模块介绍
+> LinearLayoutActivity:演示了`LinearLayout`的使用方法
+> RelativeLayoutActivity:演示了`RelativeLayout`的使用方法
+> FrameLayoutActivity:演示了`FrameLayout`的使用方法
+> TableLayoutActivity:演示了`TableLayout`的使用方法
 
 ## LinearLayout
 ### 功能
@@ -58,4 +60,7 @@
 ## AutoLayout
 ### 功能
 > 可以使不同的布局文件匹配不同的分辨率。该库的详细介绍参见[AutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout)
-### 
+
+## GridLayout
+### 功能
+> 
