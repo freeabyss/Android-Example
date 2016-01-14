@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ml.abyss.app.fragment.MainActivity">
+
+    <FrameLayout android:background="@android:color/holo_blue_bright"
+        android:id="@+id/firstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sencodFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/interactionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/addFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></FrameLayout>
+</LinearLayout>

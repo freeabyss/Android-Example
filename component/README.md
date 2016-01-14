@@ -1,11 +1,10 @@
 # component 模块简介
 > 该模块示例了Android各种基本组件的使用方法
-## 模块构成
-> AutoCompleteTextView
-> MultiAutoCompleteTextView
-> ToggleButton
-> CheckBox
-> RadioButton
+## 模块介绍
+> AutoCompleteTextViewActivity:演示`AutoCompleteTextView`和`MultiAutoCompleteTextView`的使用方法
+> ToggleButtonActivity:演示了`ToggleButton`的使用方法
+> CheckBoxActivity：演示了`CheckBox`的使用方法
+> RadioButtonActivity:演示了`RadioButton`的使用方法
 
 ## AutoCompleteTextView
 ### 功能

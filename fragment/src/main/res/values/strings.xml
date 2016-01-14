@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_add_fragment">添加一个Fragment</string>
+    <string name="button_show_text">显示文字</string>
+</resources>
