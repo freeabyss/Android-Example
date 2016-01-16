@@ -8,7 +8,9 @@
 
 ## LinearLayout
 ### 功能
+
 > 线性布局，该布局内的子控件以水平或者垂直的方式排列
+
 ### 属性
 > `android:orientation`：子类控件的排列方式，`vertical`:垂直，`horizontal`:水平
 > `andorid:gravity`：子类控件的位置。常用的值有：`center_vertical`,`center_horizontal`,`center`,`right`,`left`,`buttom`。
@@ -19,6 +21,7 @@
 ## RelativeLayout
 ### 功能
 > 相对布局，该布局内的子控件将以控件之间的相对位置或者子控件相对父类容器的位置的方式排列
+
 ### 属性
 #### 子类控件相对父类控件的位置
 > `android:layout_alignParentLeft`='true' 子控件相对当前父类容器靠左边
