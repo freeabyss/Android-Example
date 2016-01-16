@@ -20,15 +20,14 @@
 
 ## RelativeLayout
 ### 功能
-> 相对布局，该布局内的子控件将以控件之间的相对位置或者子控件相对父类容器的位置的方式排列
-
+> 相对布局，该布局内的子控件将以控件之间的相对位置或者子控件相对父类容器的位置的方式排列  
 ### 属性
 #### 子类控件相对父类控件的位置
 > `android:layout_alignParentLeft`='true' 子控件相对当前父类容器靠左边
 > `android:layout_marginLeft'='41dp' 子类控件距离父类容器左边的距离
 > `andorid:layout_centerInParent`='true' 子类控件相对父类容器即水平又垂直居中
 > `android:layout_centerHorizontal`='true' 子类控件相对父类容器水平居中
-> `android:layout_centerVertical`='true' 子类控件相对父类容器垂直居中
+> `android:layout_centerVertical`='true' 子类控件相对父类容器垂直居中  
 #### 子类控件相对子类控件的位置
 > `android:layout_below`： 该控件位于给定ID控件的底部
 > `android:layout_toRightOf`：该控件位于给定ID控件的右边
