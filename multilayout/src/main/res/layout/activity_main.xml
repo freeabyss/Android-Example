@@ -30,4 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/table_title"/>
+
+    <Button
+        android:id="@+id/showAutoLayoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_title"/>
 </LinearLayout>
