@@ -1,10 +1,10 @@
 #MultiLayout 模块
 > 本模块介绍了各种布局的使用
 ## 模块介绍
-> LinearLayoutActivity:演示了[`LinearLayout`](#LinearLayout)的使用方法  
-> RelativeLayoutActivity:演示了[`RelativeLayout`](#RelativeLayout)的使用方法  
-> FrameLayoutActivity:演示了[`FrameLayout`](#FrameLayout)的使用方法  
-> TableLayoutActivity:演示了`TableLayout`的使用方法
+> LinearLayoutActivity:演示了[`LinearLayout`](https://github.com/freeabyss/IconMan/tree/master/multilayout#LinearLayout)的使用方法  
+> RelativeLayoutActivity:演示了[`RelativeLayout`](https://github.com/freeabyss/IconMan/tree/master/multilayout#RelativeLayout)的使用方法  
+> FrameLayoutActivity:演示了[`FrameLayout`](https://github.com/freeabyss/IconMan/tree/master/multilayout#FrameLayout)的使用方法  
+> TableLayoutActivity:演示了[`TableLayout`](https://github.com/freeabyss/IconMan/tree/master/multilayout#TableLayout)的使用方法
 
 ## LinearLayout
 ### 功能
@@ -43,7 +43,7 @@
 ### 属性
 > `andorid:gravity`：使控件居中显示
 
-## TableLayout
+##TableLayout
 ### 功能
 > 表格布局，以行列的形式管理子控件，每一行为一个`TableRow`或者一个`View`对象。
 表格布局将占满父容器本身。
