@@ -33,14 +33,5 @@ public class AutoCompleteTextViewActivity extends AppCompatActivity {
         mMultiAutoCompleteTextView = (MultiAutoCompleteTextView) findViewById(R.id.macTextView);
         mMultiAutoCompleteTextView.setAdapter(adapter);
         mMultiAutoCompleteTextView.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
-
-        // 设置返回按钮
-        Button returnButton = (Button) findViewById(R.id.autoCompleteReturnButton);
-        returnButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
     }
 }
